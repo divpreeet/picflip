@@ -1,0 +1,7 @@
+__pycache__
+picflip.egg-info
+dist
+build
+.venv/
+.vscode/
+.DS_Store

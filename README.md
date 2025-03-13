@@ -32,6 +32,27 @@ if you need to convert webp, jpeg and svg (cairo required), to png's you can use
 picflip convert shrek.webp shrek.png
 ```
 
+## how to run using source code
+just clone the repo using 
+```sh
+git clone https://github.com/divpreeet/picflip.git
+```
+make sure you have python 3 installed, then create a python virtual venv - so your packages dont get too crazy
+```sh
+python3 -m venv .venv
+```
+then just run
+```sh
+pip3 install -r requirements.txt
+```
+after the packages have installed simply run
+```sh
+cd picflip
+```
+then to get started simply run
+```sh
+python3 cli.py -h
+```
 ## example 
 
 [Example Video (will redirect you to another tab)](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f3f569c3833d4b6b711a9478ddda9fae5b6ac3b9_picflip.mp4)

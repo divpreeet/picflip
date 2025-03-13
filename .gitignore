@@ -1,8 +1,11 @@
 env
 __pycache__
 picflip.egg-info
-dist
-build
+dist/
 .venv/
 .vscode/
 .DS_Store
+build/
+*.mp4
+submissions/
+Screen Shot*.png

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="picflip",
-    version="0.1.1",
+    version="0.1.2",
     description="Picflip - fix your images by removing backgrounds and converting to PNG!",
     long_description="""picflip is a terminal application that does everything you would want to do with a image, remove their bg's and convert them to png!
 
